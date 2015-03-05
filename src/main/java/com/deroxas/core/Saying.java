@@ -1,4 +1,4 @@
-package com.deroxas.template.core;
+package com.deroxas.core;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.base.MoreObjects;

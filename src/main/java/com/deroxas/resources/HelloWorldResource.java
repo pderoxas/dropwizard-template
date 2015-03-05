@@ -1,8 +1,8 @@
-package com.deroxas.template.resources;
+package com.deroxas.resources;
 
 import com.codahale.metrics.annotation.Timed;
-import com.deroxas.template.core.Saying;
-import com.deroxas.template.core.Template;
+import com.deroxas.core.Saying;
+import com.deroxas.core.Template;
 import com.google.common.base.Optional;
 import io.dropwizard.jersey.caching.CacheControl;
 import org.slf4j.Logger;

@@ -1,4 +1,4 @@
-package com.deroxas.template.filter;
+package com.deroxas.filter;
 
 import javax.ws.rs.container.DynamicFeature;
 import javax.ws.rs.container.ResourceInfo;

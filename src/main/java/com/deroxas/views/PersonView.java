@@ -1,6 +1,6 @@
-package com.deroxas.template.views;
+package com.deroxas.views;
 
-import com.deroxas.template.core.Person;
+import com.deroxas.core.Person;
 import io.dropwizard.views.View;
 
 public class PersonView extends View {

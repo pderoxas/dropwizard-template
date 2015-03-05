@@ -1,0 +1,18 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <changeSet id="1.1" author="pderoxas">
+        <comment>
+            Adding a column to the Person table
+        </comment>
+        <sql>
+            # Add isActive column
+            ALTER TABLE people ADD COLUMN isActive TINYINT(1) NOT NULL DEFAULT '0';
+        </sql>
+    </changeSet>
+</databaseChangeLog>

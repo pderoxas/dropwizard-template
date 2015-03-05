@@ -1,7 +1,7 @@
-package com.deroxas.template.health;
+package com.deroxas.health;
 
 import com.codahale.metrics.health.HealthCheck;
-import com.deroxas.template.core.Template;
+import com.deroxas.core.Template;
 import com.google.common.base.Optional;
 
 public class TemplateHealthCheck extends HealthCheck {

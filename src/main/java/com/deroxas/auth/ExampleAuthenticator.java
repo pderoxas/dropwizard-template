@@ -1,6 +1,6 @@
-package com.deroxas.template.auth;
+package com.deroxas.auth;
 
-import com.deroxas.template.core.User;
+import com.deroxas.core.User;
 import com.google.common.base.Optional;
 import io.dropwizard.auth.AuthenticationException;
 import io.dropwizard.auth.Authenticator;

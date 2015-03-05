@@ -1,6 +1,6 @@
-package com.deroxas.template;
+package com.deroxas;
 
-import com.deroxas.template.core.Template;
+import com.deroxas.core.Template;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.google.common.collect.ImmutableMap;
 import io.dropwizard.Configuration;

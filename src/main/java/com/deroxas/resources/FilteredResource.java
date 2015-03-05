@@ -1,6 +1,6 @@
-package com.deroxas.template.resources;
+package com.deroxas.resources;
 
-import com.deroxas.template.filter.DateRequired;
+import com.deroxas.filter.DateRequired;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

@@ -1,4 +1,4 @@
-package com.deroxas.template.core;
+package com.deroxas.core;
 
 public class User {
     private final String name;

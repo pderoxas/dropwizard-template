@@ -1,6 +1,6 @@
-package com.deroxas.template.db;
+package com.deroxas.db;
 
-import com.deroxas.template.core.Person;
+import com.deroxas.core.Person;
 import com.google.common.base.Optional;
 import io.dropwizard.hibernate.AbstractDAO;
 import org.hibernate.SessionFactory;
@@ -21,6 +21,6 @@ public class PersonDAO extends AbstractDAO<Person> {
     }
 
     public List<Person> findAll() {
-        return list(namedQuery("com.deroxas.template.core.Person.findAll"));
+        return list(namedQuery("Person.findAll"));
     }
 }

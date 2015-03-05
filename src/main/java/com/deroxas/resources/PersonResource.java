@@ -1,8 +1,8 @@
-package com.deroxas.template.resources;
+package com.deroxas.resources;
 
-import com.deroxas.template.core.Person;
-import com.deroxas.template.db.PersonDAO;
-import com.deroxas.template.views.PersonView;
+import com.deroxas.core.Person;
+import com.deroxas.db.PersonDAO;
+import com.deroxas.views.PersonView;
 import com.google.common.base.Optional;
 import io.dropwizard.hibernate.UnitOfWork;
 import io.dropwizard.jersey.params.LongParam;

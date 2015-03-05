@@ -1,4 +1,4 @@
-package com.deroxas.template.core;
+package com.deroxas.core;
 
 import javax.persistence.*;
 import java.util.Objects;
@@ -7,7 +7,7 @@ import java.util.Objects;
 @Table(name = "people")
 @NamedQueries({
         @NamedQuery(
-                name = "com.deroxas.template.core.Person.findAll",
+                name = "Person.findAll",
                 query = "SELECT p FROM Person p"
         )
 })

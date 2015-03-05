@@ -1,6 +1,6 @@
-package com.deroxas.template.resources;
+package com.deroxas.resources;
 
-import com.deroxas.template.core.User;
+import com.deroxas.core.User;
 import io.dropwizard.auth.Auth;
 
 import javax.ws.rs.GET;

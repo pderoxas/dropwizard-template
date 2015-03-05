@@ -1,14 +1,14 @@
-package com.deroxas.template;
+package com.deroxas;
 
-import com.deroxas.template.auth.ExampleAuthenticator;
-import com.deroxas.template.cli.RenderCommand;
-import com.deroxas.template.core.Person;
-import com.deroxas.template.core.Template;
-import com.deroxas.template.core.User;
-import com.deroxas.template.db.PersonDAO;
-import com.deroxas.template.filter.DateRequiredFeature;
-import com.deroxas.template.health.TemplateHealthCheck;
-import com.deroxas.template.resources.*;
+import com.deroxas.resources.*;
+import com.deroxas.auth.ExampleAuthenticator;
+import com.deroxas.cli.RenderCommand;
+import com.deroxas.core.Person;
+import com.deroxas.core.Template;
+import com.deroxas.core.User;
+import com.deroxas.db.PersonDAO;
+import com.deroxas.filter.DateRequiredFeature;
+import com.deroxas.health.TemplateHealthCheck;
 import com.google.common.collect.ImmutableMap;
 import io.dropwizard.Application;
 import io.dropwizard.assets.AssetsBundle;

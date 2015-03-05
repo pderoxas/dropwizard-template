@@ -1,7 +1,7 @@
-package com.deroxas.template.resources;
+package com.deroxas.resources;
 
-import com.deroxas.template.core.Person;
-import com.deroxas.template.db.PersonDAO;
+import com.deroxas.db.PersonDAO;
+import com.deroxas.core.Person;
 import io.dropwizard.hibernate.UnitOfWork;
 
 import javax.ws.rs.GET;

@@ -1,4 +1,4 @@
-package com.deroxas.template.resources;
+package com.deroxas.resources;
 
 import com.google.common.base.Charsets;
 import io.dropwizard.views.View;

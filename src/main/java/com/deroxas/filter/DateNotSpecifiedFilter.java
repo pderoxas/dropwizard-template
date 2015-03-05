@@ -1,4 +1,4 @@
-package com.deroxas.template.filter;
+package com.deroxas.filter;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.container.ContainerRequestContext;

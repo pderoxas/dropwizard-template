@@ -1,7 +1,7 @@
-package com.deroxas.template.cli;
+package com.deroxas.cli;
 
-import com.deroxas.template.HelloWorldConfiguration;
-import com.deroxas.template.core.Template;
+import com.deroxas.core.Template;
+import com.deroxas.HelloWorldConfiguration;
 import com.google.common.base.Optional;
 import io.dropwizard.cli.ConfiguredCommand;
 import io.dropwizard.setup.Bootstrap;
